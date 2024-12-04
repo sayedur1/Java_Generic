@@ -7,11 +7,8 @@ public class Generic_Example <T extends String> {
         this.param1=param1;
     }
 
-    //    public T   Value(T argue)
-//    {
-//        this. param2=argue;
-//        return param2;
-//    }
+
+
     public T getValue(){
         return param1;
     }
